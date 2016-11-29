@@ -44,7 +44,7 @@ OOP Exercise.
  
 <hr>
 
-*\* means optional parameter, defaults to `0`*
+*\*means optional parameter, defaults to `0`*
 
 ### Enumerations:
 

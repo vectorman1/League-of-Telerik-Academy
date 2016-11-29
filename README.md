@@ -13,12 +13,9 @@ OOP Exercise.
  - Has abilities (collected in the `AbilitySet` object);
  - Has capability of holding items and later casting them (if they have an ability);
  
-<hr> 
 
 `AbiitySet` class:
  - Collects all 4 `Ability` objects (Q, W, E, R) of the hero for cleaner structure.
- 
-<hr>
  
  
 `Ability` class:
@@ -30,21 +27,18 @@ OOP Exercise.
  - Has `damage`\* field;
  - Has `heal`\* field;
  
-<hr>
  
 `Item` class:
  - Has `name` field;
  - Has `holder` field;
  - Has `ability`\* field;
  
-<hr>
  
 `World` class:
  - Has `worldContents` field;
  
-<hr>
 
-*\*means optional parameter, defaults to `0`*
+*&ast; means optional parameter, defaults to `0`*
 
 ### Enumerations:
 
@@ -53,7 +47,6 @@ OOP Exercise.
   - `Damage`;
   - `Heal`;
   
-<hr>
 
 `HeroClass` enum:
  - Used in the `Hero` object construction, determining the type of the hero:
@@ -61,14 +54,12 @@ OOP Exercise.
   - `Warrior`;
   - `Shaman`;
 
-<hr>
 
 `PlayerState` enum:
  - Used in the `Hero` object construction, determining the state of the hero:
   - `Dead`;
   - `Alive`;
   
-<hr>
 
 ### Utility Classes:
 

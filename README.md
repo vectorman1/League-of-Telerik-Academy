@@ -38,8 +38,6 @@ OOP Exercise.
  - Has `worldContents` field;
  
 
-*&ast; means optional parameter, defaults to `0`*
-
 ### Enumerations:
 
 `AbilityType` enum:
@@ -67,3 +65,6 @@ OOP Exercise.
  - Battles 2 given `Hero` instances, based on `Math.random()`. `Math.random()` for who casts an ability and `Math.random()` for which ability is casted.
  
  
+<hr>
+
+*&ast; means optional parameter, defaults to `0`*
